@@ -8,11 +8,11 @@
 		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>demo1</artifactId>
+	<groupId>com.example.wipro.project.springboot</groupId>
+	<artifactId>RESTfulWebService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo1</name>
-	<description>Demo project for Spring Boot</description>
+	<name>RESTfulWebService</name>
+	<description>we will build a service that accepts http get request and gives the response</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -32,7 +32,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
